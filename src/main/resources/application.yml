@@ -1,0 +1,12 @@
+
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 15672
+    username: guest
+    exchange: DIRECT_EXCHANGE
+    queue: MQ_BUSINESS
+    routingkey: RKEY_BUSINESS
+server:
+  port: 8080
